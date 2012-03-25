@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/galaxys4gmtd/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
+    vendor/samsung/galaxys4gmtd/proprietary/etc/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/galaxys4gmtd/proprietary/etc/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
+    vendor/samsung/galaxys4gmtd/proprietary/etc/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin \
     vendor/samsung/galaxys4gmtd/proprietary/melfas_touchkey.kcm.bin:system/usr/keychars/melfas_touchkey.kcm.bin \
     vendor/samsung/galaxys4gmtd/proprietary/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin \
     vendor/samsung/galaxys4gmtd/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
