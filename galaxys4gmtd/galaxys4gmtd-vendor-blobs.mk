@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
     vendor/samsung/galaxys4gmtd/proprietary/rild:system/bin/rild \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/galaxys4gmtd/proprietary/pppd:system/bin/pppd \
     vendor/samsung/galaxys4gmtd/proprietary/libcamera.so:system/lib/libcamera.so
 
 PRODUCT_COPY_FILES += \
