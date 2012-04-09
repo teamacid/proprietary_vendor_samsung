@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libtvouthdmi.so:system/lib/libtvouthdmi.so \
     vendor/samsung/galaxys4gmtd/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so \
     vendor/samsung/galaxys4gmtd/proprietary/tvoutserver:system/bin/tvoutserver \
-    vendor/samsung/galaxys4gmtd/proprietary/tvout_jni.so:system/lib/libtvout_jni.so \
+    vendor/samsung/galaxys4gmtd/proprietary/libtvout_jni.so:system/lib/libtvout_jni.so \
     vendor/samsung/galaxys4gmtd/proprietary/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/galaxys4gmtd/proprietary/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/galaxys4gmtd/proprietary/CE147F00.bin:system/firmware/CE147F00.bin \
