@@ -28,12 +28,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/librilswitch.so:system/lib/librilswitch.so \
     vendor/samsung/galaxys4gmtd/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
     vendor/samsung/galaxys4gmtd/proprietary/rild:system/bin/rild \
-    vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxys4gmtd/proprietary/pppd:system/bin/pppd \
+    vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxys4gmtd/proprietary/libcamera.so:system/lib/libcamera.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys4gmtd/proprietary/immvibed:system/vendor/bin/immvibed \
+    vendor/samsung/galaxys4gmtd/proprietary/immvibed:system/bin/immvibed \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/galaxys4gmtd/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libtvouthdmi.so:system/lib/libtvouthdmi.so \
     vendor/samsung/galaxys4gmtd/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so \
     vendor/samsung/galaxys4gmtd/proprietary/tvoutserver:system/bin/tvoutserver \
+    vendor/samsung/galaxys4gmtd/proprietary/tvout_jni.so:system/lib/libtvout_jni.so \
     vendor/samsung/galaxys4gmtd/proprietary/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/galaxys4gmtd/proprietary/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/galaxys4gmtd/proprietary/CE147F00.bin:system/firmware/CE147F00.bin \
