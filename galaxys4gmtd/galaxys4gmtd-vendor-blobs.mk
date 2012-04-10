@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/immvibed:system/bin/immvibed \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
+    vendor/samsung/galaxys4gmtd/proprietary/BCM4329B1_002.002.023.0746.0832.hcd:system/bin/BCM4329B1_002.002.023.0746.0832.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/galaxys4gmtd/proprietary/etc/nvram_net.txt:system/etc/wifi/nvram_net.txt \
@@ -47,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/galaxys4gmtd/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/galaxys4gmtd/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
+    vendor/samsung/galaxys4gmtd/proprietary/sensors.default.so:system/lib/hw/sensors.s5pc110.so \
     vendor/samsung/galaxys4gmtd/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/galaxys4gmtd/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/samsung/galaxys4gmtd/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
