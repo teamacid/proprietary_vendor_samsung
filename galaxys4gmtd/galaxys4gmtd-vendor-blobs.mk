@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/galaxys4gmtd/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/galaxys4gmtd/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
-    vendor/samsung/galaxys4gmtd/proprietary/sensors.default.so:system/lib/hw/sensors.s5pc110.so \
     vendor/samsung/galaxys4gmtd/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/galaxys4gmtd/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/samsung/galaxys4gmtd/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
