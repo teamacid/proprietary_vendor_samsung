@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libcamera.so:system/lib/libcamera.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys4gmtd/proprietary/immvibed:system/bin/immvibed \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/galaxys4gmtd/proprietary/BCM4329B1_002.002.023.0746.0832.hcd:system/bin/BCM4329B1_002.002.023.0746.0832.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
