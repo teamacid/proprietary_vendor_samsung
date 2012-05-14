@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/rild:system/bin/rild \
     vendor/samsung/galaxys4gmtd/proprietary/pppd:system/bin/pppd \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/galaxys4gmtd/proprietary/libcamera.so:system/lib/libcamera.so
+    vendor/samsung/galaxys4gmtd/proprietary/libcamera.so:system/lib/libsamsungcamera.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
