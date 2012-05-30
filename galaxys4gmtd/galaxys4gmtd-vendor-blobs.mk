@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/rild:system/bin/rild \
     vendor/samsung/galaxys4gmtd/proprietary/pppd:system/bin/pppd \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/galaxys4gmtd/proprietary/libcamera.so:system/lib/libsamsungcamera.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
@@ -58,30 +57,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/CE147F02.bin:system/vendor/firmware/CE147F02.bin \
     vendor/samsung/galaxys4gmtd/proprietary/libusc.so:system/vendor/lib/libusc.so
 
-# fascinatemtd uses older sensor drivers
-ifndef TARGET_USES_OLD_LIBSENSORS_HAL
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/galaxys4gmtd/proprietary/libsensorservice.so:system/vendor/lib/libsensorservice.so \
     vendor/samsung/galaxys4gmtd/proprietary/orientationd:system/vendor/bin/orientationd \
     vendor/samsung/galaxys4gmtd/proprietary/geomagneticd:system/vendor/bin/geomagneticd
-endif
 
 # camera and tvout
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys4gmtd/proprietary/libActionShot.so:system/lib/libActionShot.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libarccamera.so:system/lib/libarccamera.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libcamerafirmwarejni.so:system/lib/libcamerafirmwarejni.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/galaxys4gmtd/proprietary/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/galaxys4gmtd/proprietary/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/galaxys4gmtd/proprietary/libPlusMe.so:system/lib/libPlusMe.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libs3cjpeg.so:system/lib/libs3cjpeg.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libseccamera.so:system/lib/libseccamera.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
-    vendor/samsung/galaxys4gmtd/proprietary/libsecjpegencoder.so:system/lib/libsecjpegencoder.so \
     vendor/samsung/galaxys4gmtd/proprietary/libtvout.so:system/lib/libtvout.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
     vendor/samsung/galaxys4gmtd/proprietary/libtvoutfimc.so:system/lib/libtvoutfimc.so \
