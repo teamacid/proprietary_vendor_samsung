@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/samsung/galaxys4gmtd/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/galaxys4gmtd/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/galaxys4gmtd/proprietary/CE147F02.bin:system/vendor/firmware/CE147F02.bin \
     vendor/samsung/galaxys4gmtd/proprietary/libusc.so:system/vendor/lib/libusc.so
 
 PRODUCT_COPY_FILES += \
@@ -82,30 +81,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/CE147F02.bin:system/firmware/CE147F02.bin \
     vendor/samsung/galaxys4gmtd/proprietary/CE147F03.bin:system/firmware/CE147F03.bin
 
-# low power mode
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys4gmtd/proprietary/charging_mode:system/bin/charging_mode \
-    vendor/samsung/galaxys4gmtd/proprietary/playlpm:system/bin/playlpm \
-    vendor/samsung/galaxys4gmtd/proprietary/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/chargingwarning.qmg:system/media/chargingwarning.qmg \
-    vendor/samsung/galaxys4gmtd/proprietary/Disconnected.qmg:system/media/Disconnected.qmg
