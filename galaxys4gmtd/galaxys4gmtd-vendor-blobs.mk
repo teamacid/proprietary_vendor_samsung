@@ -20,10 +20,10 @@ PROCDUCT_COPY_FILES += \
 
 # All the other proprietary blobs necessary for a working SGS4G
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys4gmtd/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/galaxys4gmtd/proprietary/etc/vendor/samsung-agps/secgps.conf:system/etc/vendor/samsung-agps/secgps.conf \
+    vendor/samsung/galaxys4gmtd/proprietary/vendor/lib/hw/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
+    vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/samsung-gpsd:system/vendor/bin/samsung-gpsd \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
-    vendor/samsung/galaxys4gmtd/proprietary/vendor/lib/libsgs4ghwlegacy.so:system/vendor/lib/libsgs4ghwlegacy.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
