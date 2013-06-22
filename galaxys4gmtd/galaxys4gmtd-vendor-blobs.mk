@@ -20,7 +20,7 @@ PROCDUCT_COPY_FILES += \
 
 # All the other proprietary blobs necessary for a working SGS4G
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys4gmtd/proprietary/vendor/gps.conf:system/vendor/gps.conf \
+    vendor/samsung/galaxys4gmtd/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/lib/hw/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
     vendor/samsung/galaxys4gmtd/proprietary/vendor/bin/samsung-gpsd:system/vendor/bin/samsung-gpsd \
     vendor/samsung/galaxys4gmtd/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
