@@ -32,8 +32,8 @@
   <gll 
        LogPriMask="LOG_DEBUG"
        LogFacMask="LOG_GLLAPI | LOG_DEVIA | LOG_NMEA | LOG_RAWDATA | LOG_DEVMS | LOG_ASIC_IO | LOG_BBTEST | LOG_DEVET | LOG_MESM | LOG_DEVKF | LOG_DEVJG | LOG_DEVMR" 
-       FrqPlan="FRQ_PLAN_26MHZ_2PPM_26MHZ_300PPB_UNSTABLE"   
-       RfType="GL_RF_4751_DANUBE"
+       FrqPlan="FRQ_PLAN_26MHZ_2PPM_26MHZ_300PPB"   
+       RfType="GL_RF_4751_DANUBE_EXT_LNA"
        CNoSmoothEnable="true"
     >   
     <periodic_hor_acc_remap>
